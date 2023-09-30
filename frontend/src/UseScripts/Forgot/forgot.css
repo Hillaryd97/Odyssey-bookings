@@ -1,0 +1,135 @@
+.forgot-popup {
+    margin-top: -10rem;
+}
+
+.forgot-title {
+    /* text-align: center; */
+    margin: auto;
+
+}
+
+.forgot-close-btn {
+
+    font-size: 25px;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+
+
+}
+
+.forgot-cl-btn {
+    position: absolute;
+    top: -8px;
+    left: 3px;
+}
+
+.tester::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 0.5);
+    /* This sets the background to semi-transparent black */
+    z-index: 1;
+    /* Place the overlay behind the popup content */
+}
+
+.forgot-top {
+    position: relative;
+    display: flex;
+    margin-top: 5rem;
+    /* justify-content: space-evenly; */
+}
+
+.forgot-line {
+    margin-top: 1rem;
+    width: 500px;
+    height: 1px;
+    background-color: black;
+}
+
+.forgot-h5 {
+    font-size: 30px;
+}
+
+.forgot-control {
+    margin-top: 2rem;
+}
+
+.form-guard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.forgot-input {
+    border-radius: 10px 10px 0 0;
+    border: 1px black solid;
+}
+
+
+.forgot-pass {
+    border-radius: 0 0 10px 10px;
+    border: 1px black solid;
+}
+
+.forgot-input,
+.forgot-pass {
+    height: 55px;
+}
+
+.forgot-input,
+.forgot-pass,
+.forgot-button,
+pass-button {
+    width: 500px;
+}
+
+.forgot-button {
+    margin-top: 1rem;
+    padding: 5px 40px;
+    background-color: maroon;
+    text-align: center;
+}
+
+.forgot-extra {
+    /* margin-top: 1rem; */
+}
+
+.pass-href {
+    font-size: 20px;
+
+
+}
+
+.pass-button {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: gray;
+    margin-top: 1rem;
+}
+
+.pass-href:link {
+    text-decoration: none;
+    color: white;
+}
+
+.pass-href:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.pass-href:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.pass-href:active {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,102 @@
+/* ----Start of home container 2------ */
+/* .home-container3 {
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 600px) {
+    .home-container3 {
+
+    }
+}
+
+@media (max-width: 768px) {
+    .home-container3 {
+        max-width: 800px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+} */
+
+.home-container3 {
+    margin-top: 3rem;
+    max-width: 1250px;
+}
+
+.home3-image {
+    margin-top: 2rem;
+}
+
+.home3-img {
+    width: 100%;
+    height: 150px;
+}
+
+.home-subscribe {
+    margin-top: 1rem;
+}
+
+.home-subscribe-head {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.form-subscribe3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    /* display: flex;
+    max-width: 800px; */
+}
+
+.home3-input {
+    background-color: #d4d1d1;
+    width: 600px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .home3-input {
+        max-width: 450px;
+
+    }
+
+         .home3-btn {
+             margin-top: 1rem;
+         }
+}
+
+@media screen and (min-width: 0)  and (max-width: 767px) {
+    .home3-input {
+        max-width: 450px;
+    }
+
+    .home3-btn {
+        margin-top: 1rem;
+    }
+}
+
+.home3-btn {
+    padding: 10px 20px;
+    background-color: rgb(44, 127, 244);
+    color: white;
+    width: 170px;
+}
+
+.home3-input[type="text"]::placeholder {
+    text-indent: 20px;
+}
+
+.home3-input[type="text"], .home3-btn {
+    border: none;
+    outline: none;
+    appearance: none;
+    height: 50px;
+
+}

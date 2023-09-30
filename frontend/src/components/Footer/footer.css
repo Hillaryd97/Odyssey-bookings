@@ -1,0 +1,131 @@
+.footer3 {
+    background-color: rgb(29, 28, 28);
+}
+
+.foot3-con , .foot3-list {
+    list-style-type: none;
+}
+
+.footer3 {
+    margin-top: 3rem;
+    padding: 5rem 2rem;
+}
+
+.footer3-column {
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.footer3-head {
+    color: white;
+}
+
+.foot3-h5 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.foot3-para {
+    color: white;
+
+}
+
+.foot3-link {
+    display: flex;
+    padding: 0;
+}
+
+.footer3-h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer3-list-control {
+    /* text-align: center;
+    justify-content: center; */
+    margin-top: 2rem;
+}
+
+.footer3-list {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    text-align: left;
+}
+
+.footer3-form {
+    margin-top: 3rem;
+}
+
+.footer3-para {
+    margin-top: 1rem;
+}
+
+.footer3-input {
+    width: 350px;
+    height: 40px;
+}
+
+.footer3-p {
+    color: white;
+    font-size: 25px;
+}
+
+.foot3-href {
+    font-size: 25px;
+}
+
+.foot3-href:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-href:active {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-href:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-href:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-svg-icon3 {
+   
+}
+
+
+
+.foot3-net-special:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-net-special:active {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-net-special:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot3-net-special:hover {
+    color: white;
+    text-decoration: none;
+
+}

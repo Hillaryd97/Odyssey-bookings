@@ -1,0 +1,59 @@
+.my-header {
+    /* margin: 0; */
+    background-color: rgb(172, 171, 171);
+    display: flex;
+    gap: 40rem;
+    justify-content: space-evenly;
+    height: 70px;
+    /* margin: auto; */
+}
+
+.header-span {
+    z-index: 1;
+    color: white;
+}
+
+.header1-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    position: relative;
+    /* margin: auto; */
+}
+
+.head1-line {
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    left: 81px;
+    width: 1.6px;
+    height: 15px;
+}
+
+.header2-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.head2-list {
+    margin: 0;
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+}
+
+.head2-list-extra {
+    /* margin-left: 1rem; */
+
+}
+
+.head3-list {
+    /* display: flex; */
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+.head3-btn {
+    background-color: rgb(172, 171, 171);
+    color: white;
+    border: none;
+}

@@ -1,0 +1,507 @@
+.book1-row1 {
+    margin-top: 2rem;
+}
+
+.book1-col {
+    margin-top: 13px;
+}
+
+.book1-sub-col {
+    /* margin-top: 1rem; */
+    margin-bottom: 13px;
+}
+
+.book1-img {
+    width: 100%;
+    height: 400px;
+}
+
+.col-img {
+    width: 100%;
+    height: 183.5px;
+}
+
+.row-control {
+    margin-top: 20px;
+}
+
+/* -----Start of second row---- */
+.book1-left-head {
+    margin-top: 2rem;
+}
+
+.read-or-hide {
+    color: maroon;
+}
+
+.book1-left-divs {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.little-div1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 1rem;
+    
+    /* background-color: red; */
+    width: 150px;
+    height: 60px;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.little-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 1rem;
+    /* background-color: blue; */
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px black solid;
+}
+
+.little-div3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 1rem;
+    /* background-color: green; */
+    width: 170px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px black solid;
+}
+
+.little-h6 {
+    font-size: 13px;
+    margin-top: 9px;
+}
+
+.book1-left-i {
+    font-size: 23px;
+}
+
+.book1-row5 {
+    position: relative;
+}
+
+.span-book1-line {
+    position: absolute;
+    background-color: gray;
+    width: 2px;
+    height: 400px;
+    top: 105px;
+    left: 710px;
+}
+
+.book1-right-col {
+    padding: 0;
+    padding-left: 6rem;
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    /* Your CSS styles for small screens (sm) */
+    .book1-right-col {
+        margin: auto auto;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .span-book1-line {
+        display: none;
+    }
+
+    .fam-line2 {
+        display: none;
+    }
+
+    .fam-line3 {
+        display: none;
+    }
+
+    .book1-pay-icons1 {
+        margin-top: -30px;
+        margin-left: 10rem;
+    }
+
+    .book1-pay-icons2 {
+        margin-top: -30px;
+        margin-left: 5rem;
+    }
+
+    .pref-line {
+        display: none;
+    }
+
+    .toggle {
+        margin: auto;
+    }
+    
+}
+
+
+.book1-right-amenities {
+    margin-top: 2rem;
+}
+
+.right-control {
+    
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.book1-right-info {
+    margin-top: 15px;
+    
+
+}
+
+.book1-right-h5 {
+    font-size: 16px;
+        /* font-weight: 200; */
+}
+
+.book1-right-i {
+    font-size: 30px;
+    /* height: 90px; */
+}
+
+.book1-right-button {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.book1-right-btn {
+    background-color: #fff;
+    padding: 10px 40px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+/* ----Start of third row---- */
+.book1-row6 {
+    margin-top: 5rem;
+}
+
+.book1-left-col6 {
+    padding: 2rem;
+}
+
+.book1-left-cont {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.book1-pay-icons1 {
+    margin-left: 25rem;
+}
+
+.book1-pay-icons2 {
+    margin-left: 26rem;
+}
+
+.book1-pay-i {
+    font-size: 30px;
+}
+
+/* ---- Start of Book1-left-pref---- */
+
+.book1-left-pref {
+    margin-top: 3rem;
+}
+
+.pref-line {
+    margin-top: 3rem;
+    width: 550px;
+    height: 1px;
+    background-color: black;
+}
+
+.form-guard {
+    margin-top: 2rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.pref-head {
+    text-align: center;   
+}
+
+.form-head {
+    color: black;
+}
+
+.form-h3 {
+    font-size: 25px;
+}
+
+.pay-h3 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.toggle {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    margin: auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.toggle-input {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.toggle-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    width: 100px;
+    font-size: 12px;
+    background: maroon;
+    border-radius: inherit;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 3px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-label:before,
+.toggle-label:after {
+    position: absolute;
+    top: 50%;
+    color: black;
+    margin-top: -.5em;
+    line-height: 1;
+}
+
+.toggle-label:before {
+    /* content: attr(data-off); */
+    content: "";
+    right: 11px;
+    color: #fff;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.toggle-label:after {
+    /* content: attr(data-on); */
+    content: "";
+    left: 11px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.toggle-input:checked~.toggle-label {
+    background: rgb(212, 212, 170);
+}
+
+.toggle-input:checked~.toggle-label:before {
+    opacity: 0;
+}
+
+.toggle-input:checked~.toggle-label:after {
+    opacity: 1;
+}
+
+.toggle-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+    border-radius: 50%;
+}
+
+.toggle-handle:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 16px;
+    height: 16px;
+}
+
+.toggle-input:checked~.toggle-handle {
+    left: 64px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Transition*/
+.toggle-label,
+.toggle-handle {
+    transition: All 0.3s ease;
+    -webkit-transition: All 0.3s ease;
+    -moz-transition: All 0.3s ease;
+    -o-transition: All 0.3s ease;
+}
+
+
+
+.book1-left-col6 {
+    margin-bottom: 3rem;
+}
+
+.book1-fam-col {
+    background-color: beige;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.right-fam1 {
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+.fam-img {
+    width: 100%;
+    height: 150px;
+}
+
+.fam-line {
+    margin-top: 3px;
+    width: 1px;
+    height: 20px;
+    background-color: black;
+}
+
+.fam-views {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.amountX {
+    display: flex;
+    margin-top: -30px;
+}
+
+.amount {
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.fam-line2 {
+    position: absolute;
+    width: 550px;
+    height: 1px;
+    top: 190px;
+    left: 0;
+    background-color: black;
+}
+
+.fam-line3 {
+    margin-left: -1rem;
+    width: 570px;
+    height: 1.5px;
+    background-color: black;
+}
+
+.fam-para {
+    font-size: 20px;
+}
+
+.fam-para1 {
+    font-size: 20px;
+    margin-left: 14rem;
+}
+
+.fam-para2 {
+    font-size: 20px;
+    margin-left: 12.7rem;
+}
+
+.fam-para3 {
+    font-size: 20px;
+    margin-left: 17.7rem;
+}
+
+.right-fam3 {
+    margin-top: -30px;
+}
+
+.amount2 {
+    display: flex;
+}
+
+.fam-paraB {
+    font-size: 30px;
+    margin-left: 12.5rem;
+}
+
+@media (max-width:768px) {
+    .fam-paraB {
+        font-size: 30px;
+        margin-left: 7rem;
+    }
+
+    .fam-para1 {
+        margin-left: 7rem;
+    }
+
+    .fam-para2 {
+        margin-left: 5.7rem;
+    }
+
+    .fam-para3 {
+        margin-left: 10.7rem;
+    }
+}
+
+.right-fam-button {
+    margin-top: 1rem;	    
+    text-align: right;
+}
+
+.fam-href {
+    background-color: maroon;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.fam-href:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.fam-href:link {
+    color: white;
+    text-decoration: none;
+}
+
+.fam-href:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.fam-href:active {
+    color: white;
+    text-decoration: none;
+}
