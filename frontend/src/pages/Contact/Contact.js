@@ -1,8 +1,10 @@
+import Navbar from '../../components/Navbar/Navbar';
 import './contact.css';
 
 export default function Contact() {
   return (
     <div>
+        <Navbar/>
         <div className="container-fluid">   
             <div className="row mt-5">
                 <div className="col-sm-12 col-md-12 col-lg-5">

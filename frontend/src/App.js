@@ -9,13 +9,16 @@ import Booking1 from './subpages/Booking/Booking1/Booking1';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Booking2 from './subpages/Booking/Booking2/Booking2';
+import Header from './components/Header/Header';
 // import Olateju from './subpages/Olateju/Olateju';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar/>
+      
+        {/* <Navbar/> */}
+        
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/hotel" element={<Hotel/>}/>
@@ -24,9 +27,8 @@ function App() {
                 <Route path="/phase1" element={<Phase1/>}/>
                 <Route path="/booking1" element={<Booking1/>}/>
                 <Route path="/booking2" element={<Booking2/> }/>
-
             </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
     </div>
   );
