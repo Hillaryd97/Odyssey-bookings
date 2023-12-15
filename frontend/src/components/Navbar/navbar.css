@@ -1,5 +1,13 @@
-.my-nav {
-    height: 100px;    
+.my-nav-bar  {
+    box-shadow: 0px 7px 0px -5px rgba(0, 0, 0, 0.2);
+    /* overflow: auto; */
+    z-index: 2;
+    /* padding: 10px 0 10px 0; */
+    /* background-color: blue; */
+}
+
+.nav-control.sticky {
+    /* background: white; */
 }
 
 .nav-img {

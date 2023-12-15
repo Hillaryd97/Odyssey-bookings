@@ -1,3 +1,4 @@
+import Navbar from '../../../components/Navbar/Navbar';
 import './booking1.css';
 import { useState } from 'react';
 
@@ -20,6 +21,7 @@ const ReadMore = ({ children }) => {
 export default function Booking1() {
   return (
     <div>
+        <Navbar/>
         {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, similique! */}
         <div className="container-fluid">
             <div className="booking1-head">

@@ -1,5 +1,7 @@
 .my-header {
     /* margin: 0; */
+    width: 100%;
+    max-width: 100%;
     background-color: rgb(172, 171, 171);
     display: flex;
     gap: 40rem;

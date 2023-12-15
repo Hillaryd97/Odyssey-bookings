@@ -1,52 +1,61 @@
 import './home.css';
-// import Navbar from '../../components/Navbar/Navbar';
-import Home2 from '../Home2/Home2';
-import Home3 from '../Home3/Home3';
+import Navbar from '../../components/Navbar/Navbar';
+// import Home2 from '../Home2/Home2';
+// import Home3 from '../Home3/Home3';
 import {Link} from 'react-router-dom';
+import Header from '../../components/Header/Header';
 // import Footer from '../../components/Footer/Footer';
 
 export default function Home() {
   return (
     <div>
-        {/* <Navbar/> */}
+        <Header/>
+        <Navbar/>
 
-        <div className="home-container">
+        <div className="home-container">    
             <div className="home-image">
                 <img src="images/Hotelroomland/hotelroom9land.jpg" alt="" className="home-img" />            
             </div>
 
+            
+            <div className="home-info">
+                <h1 className='home-head-h1'>The Odyssey Bookings</h1>
+                <p className='home-text-para' >The simple yet comfortable atmosphere</p>
+            </div>
+
             <div className="home-content">
-                <div className="home-info">
-                    <div className="home-head"><h1 className='home-head-h1' >The Odyssey Bookings</h1></div>
-                    <div className="home-text"><p className='home-text-para' >The simple yet comfortable atmosphere</p></div>
-                </div>
-
                 
-                <form action="" className="home-form-grid">
-                    <div className="row home-grid-box">
+                {/* <form action="" className="home-form-grid">
+                    <div className="home-grid-box">
                     
-                        <select name="" id="" className="home-select">
-                            <option value="" className="home-option">Where will you like to stay?</option>
-                            <option value="" className="home-option">Lagos</option>
-                            <option value="" className="home-option">Enugu</option>
-                        </select>
+                        <div className="home-grid-box-card">
+                            <select name="" id="" className="home-select">
+                                <option value="" className="home-option">Where will you like to stay?</option>
+                                <option value="" className="home-option">Lagos</option>
+                                <option value="" className="home-option">Enugu</option>
+                            </select>
+                        </div>
 
-                        <span className="home-grid-line"></span>
-                    
-                        <input type="date" id="myDateInput" className="home-input" placeholder='' />
+                        <div className="home-grid-box-card">
+                            <input type="date" id="myDateInput" className="home-input" placeholder='' />
+                        </div>
 
-                        <span className="home-grid-line"></span>
-                    
-                        <input type="date" id="myDateInput" className="home-input" placeholder='' />
+                        <div className="home-grid-box-card">
+                            <input type="date" id="myDateInput" className="home-input" placeholder='' />
+                        </div>
 
-                        <span className="home-grid-line"></span>
+                        <div className="home-grid-box-card">
+                            <button className="home-btn" type='submit'>Search</button>
+                        </div>
+
+                        
                     
-                        <button className="home-btn" type='submit'>Search</button>
+                        
                     
                     </div>
-                </form>
+                </form>    */}
 
-                <div className="home-grid-guard">
+                {/* <div className="home-grid-guard">
                     <div className="home-card">
                         <div className="home-card-image">
                             <Link to='/phase1' >
@@ -98,18 +107,31 @@ export default function Home() {
                             
                         </div>
                     </div>
-                </div>
-            </div>
-
-            
+                </div> */}
+            </div>    
         </div>
 
 
 
-        <Home2/>
+        {/* <Home2/>
 
-        <Home3/>
+        <Home3/> */}
+
+        
+
+
+                {/* <span className="home-grid-line"></span> */}
+                    
+                        
+
+                        {/* <span className="home-grid-line"></span> */}
+                    
+                        
+
+                        {/* <span className="home-grid-line"></span> */}
         
     </div>
   )
 }
+
+

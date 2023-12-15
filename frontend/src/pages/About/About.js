@@ -1,8 +1,10 @@
+import Navbar from '../../components/Navbar/Navbar'
 import "./about.css";
 
 export default function About() {
   return (
     <div>
+        <Navbar/>
       <div className="">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">

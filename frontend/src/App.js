@@ -10,13 +10,16 @@ import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Booking2 from './subpages/Booking/Booking2/Booking2';
 import AdminHome from './pages/Admin/AdminHome/AdminHome';
+import Header from './components/Header/Header';
 // import Olateju from './subpages/Olateju/Olateju';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar/>
+      
+        {/* <Navbar/> */}
+        
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/hotel" element={<Hotel/>}/>
@@ -30,7 +33,7 @@ function App() {
                 <Route path="/allHotels" element={<AdminHome/> }/>
   
             </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
     </div>
   );
