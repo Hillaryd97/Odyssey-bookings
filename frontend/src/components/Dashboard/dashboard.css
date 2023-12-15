@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Your content container */
+.content {
+  flex: 1;
+}
+
+.overflow-hidden {
+  overflow: hidden; /* or use 'auto' if you want to add a scrollbar when content overflows */
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+  }
+  
+
+.items-center {
+  align-items: center;
+}
+
+.card-number{
+    font-size: 1.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-bigger{
+    font-size: 3rem;
+}
+
+.tableHead{
+    position: fixed;
+top: 0;
+left: 0;
+}

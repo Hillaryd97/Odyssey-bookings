@@ -9,6 +9,7 @@ import Booking1 from './subpages/Booking/Booking1/Booking1';
 import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Booking2 from './subpages/Booking/Booking2/Booking2';
+import AdminHome from './pages/Admin/AdminHome/AdminHome';
 // import Olateju from './subpages/Olateju/Olateju';
 
 function App() {
@@ -24,7 +25,10 @@ function App() {
                 <Route path="/phase1" element={<Phase1/>}/>
                 <Route path="/booking1" element={<Booking1/>}/>
                 <Route path="/booking2" element={<Booking2/> }/>
-
+                <Route path="/adminHome" element={<AdminHome/> }/>
+                <Route path="/allCustomers" element={<AdminHome/> }/>
+                <Route path="/allHotels" element={<AdminHome/> }/>
+  
             </Routes>
         <Footer/>
       </BrowserRouter>
